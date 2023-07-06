@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   background-color: var(--lightest);
   height: 100%;
   display: flex;
@@ -26,11 +26,57 @@ body {
 }
 
 .heading-decoration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 2rem;
+  height: 2.5rem;
   background-color: var(--medium);
   border-radius: 1rem;
   margin-bottom: 2rem;
+}
+
+.socials {
+  display: flex;
+}
+
+.toggle-switch {
+  display: flex;
+}
+
+.switch {
+  display: inline-block;
+  background-color: var(--lightest);
+  margin-right: 10px;
+  width: 50px;
+  height: 28px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+
+.switch::before {
+  position: absolute;
+  content: "";
+  background-color: var(--medium);
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin: 4px;
+  transition: 0.2s;
+}
+
+input:checked + .switch {
+  background-color: var(--darkest);
+}
+
+input:checked + .switch::before {
+  transform: translateX(21px);
+}
+
+input {
+  display: none;
 }
 
 .heading-section {
@@ -57,17 +103,6 @@ body {
 
 .body-one {
   margin-top: 2rem;
-}
-
-.projects-btn {
-  width: 8rem;
-  height: 3rem;
-  background-color: var(--medium);
-  border: none;
-  border-radius: 0.5rem;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  margin-top: 1rem;
 }
 
 .projects-btn:hover {
@@ -106,22 +141,27 @@ body {
 .social {
   margin-bottom: 16px;
   max-width: 100%;
-  /* text-align: right; */
 }
 
 .social-type {
   display: flex;
+  align-items: center;
+}
+
+.divider {
+  margin-left: 10px;
+  cursor: default;
 }
 
 .icon {
   display: flex;
   align-items: center;
+  margin-left: 10px;
 }
 
 .social-link {
   margin-top: 0;
-  margin-bottom: 2px;
-  margin-left: 0.5rem;
+  margin-left: 4px;
   text-decoration: none;
   color: black;
 }
