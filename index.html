@@ -13,106 +13,131 @@
   </head>
   <body class="body">
     <div class="main">
-      <div class="heading">
-        <div class="heading-decoration">
-          <div class="socials">
-            <div class="social-type">
-              <i class="icon fa-brands fa-github"></i>
-              <a
-                class="social-link social-gthb"
-                href="https://github.com/chris-azuaje"
-                target="_blank"
-                >Github</a
-              >
-            </div>
-            <span class="divider">|</span>
-            <div class="social-type">
-              <i class="icon fa-brands fa-twitter"></i>
-              <a
-                class="social-link social-twtr"
-                href="https://twitter.com/chris_azuaje"
-                target="_blank"
-                >Twitter</a
-              >
-            </div>
-            <span class="divider">|</span>
-            <div class="social-type">
-              <i class="icon fa-brands fa-linkedin"></i>
-              <a
-                class="social-link social-lnkdn"
-                href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </div>
+      <div class="header">
+        <div class="header-decoration">
+          <nav>
+            <ul>
+              <li>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/chris-azuaje" target="_blank"
+                  >Github</a
+                >
+              </li>
+              <span class="divider"></span>
+              <li>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <a
+                  href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <span class="divider"></span>
+              <li>
+                <i class="fa-brands fa-twitter"></i>
+                <a href="https://twitter.com/chris_azuaje" target="_blank"
+                  >Twitter</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+              <li>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/chris-azuaje" target="_blank"
+                  >Github</a
+                >
+              </li>
+              <li>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <a
+                  href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <i class="fa-brands fa-twitter"></i>
+                <a href="https://twitter.com/chris_azuaje" target="_blank"
+                  >Twitter</a
+                >
+              </li>
+            </ul>
           </div>
           <div class="toggle-switch">
             <input type="checkbox" id="check" />
             <label for="check" class="switch"></label>
           </div>
         </div>
-        <div class="heading-section">
+        <div class="header-section">
           <div class="intro">
             <h2 class="intro-name">Chris Azuaje</h2>
-            <p class="intro-headline">Software Developer</p>
+            <p class="intro-background">Software Developer</p>
           </div>
-          <img class="heading-photo" src="./images/IMG_8476.jpg" />
+          <img class="intro-photo" src="./images/IMG_8476.jpg" />
         </div>
       </div>
-      <div class="body-one">
-        <p><strong>Profile</strong></p>
-        <p>
+
+      <div class="body-portion body-portion--one">
+        <p class="title"><strong>Profile</strong></p>
+        <p class="text">
           Hello! I am a fullstack developer who loves the challenge of building
           functional and beautiful applications as well as spending time
-          learning new programming technologies! I'm driven by the desire to
-          improve modern web applications and overcome the obstacles that lead
-          to a more technologically integrated world.
+          familiarizing myself with new programming technologies! I enjoy my
+          time learning and helping others improve or create their own unique
+          web applications.
         </p>
-        <p>
+        <p class="text">
           Born in New York and raised in Venezuela, I currently reside in the
-          beautiful city of Charlotte, North Carolina where I spend my time
-          coding, mountain biking and enjoying the large plethora of cafes.
-          Whatever I do, coding or otherwise, I approach every challenge with a
-          sense of purpose and a positive attitude.
+          beautiful city of Charlotte, North Carolina where I spend most of my
+          time coding, exercising or going to one of the local cafes to code
+          some more. Whatever I do, I approach every challenge with a sense of
+          purpose and a positive attitude.
         </p>
       </div>
-      <div class="body-two">
-        <div class="bio">
-          <p><strong>Bio</strong></p>
+
+      <div class="body-portion body-portion--two">
+        <div class="bio-main">
+          <p class="title"><strong>Bio</strong></p>
           <div class="bio-section">
-            <p>1997</p>
-            <p class="bio-summary">
-              Moved to Venezuela with my mom, dad and sister.
-            </p>
+            <p class="text bio-year">1997</p>
+            <p class="text bio-highlight">Moved to Venezuela</p>
           </div>
           <div class="bio-section">
-            <p>2001</p>
-            <p class="bio-summary">Dad gifted me my first cow!</p>
+            <p class="text bio-year">2001</p>
+            <p class="text bio-highlight">Dad gifted me my first cow!</p>
           </div>
           <div class="bio-section">
-            <p>2003</p>
-            <p class="bio-summary">Moved with my family to Florida.</p>
+            <p class="text bio-year">2003</p>
+            <p class="text bio-highlight">Moved to Florida</p>
           </div>
           <div class="bio-section">
-            <p>2011</p>
-            <p class="bio-summary">
+            <p class="text bio-year">2011</p>
+            <p class="text bio-highlight">
               First time ever wakeboarding which led to a newfound love of
-              watersports.
+              watersports
             </p>
           </div>
           <div class="bio-section">
-            <p>2015</p>
-            <p class="bio-summary">
-              Started my university curriculum as a Mechanical Engineer.
+            <p class="text bio-year">2015</p>
+            <p class="text bio-highlight">
+              Started my university curriculum as a Mechanical Engineering
+              student
             </p>
           </div>
           <div class="bio-section">
-            <p>2020</p>
-            <p class="bio-summary">Got my first job as a CAD technician.</p>
+            <p class="text bio-year">2020</p>
+            <p class="text bio-highlight">
+              Got my first job as a CAD technician
+            </p>
           </div>
           <div class="bio-section">
-            <p>2022</p>
-            <p class="bio-summary">
+            <p class="text bio-year">2022</p>
+            <p class="text bio-highlight">
               Left for a once-in-a-lifetime 11 month backpacking trip covering 9
               countries!
             </p>
@@ -120,42 +145,12 @@
         </div>
         <div class="extras">
           <div>
-            <p><strong>I💗</strong></p>
-            <p>
-              Traveling, driving, scubadiving, snorkeling, bouldering, reading,
-              hiking, camping, wakeboarding, photography, and eating!
+            <p class="title"><strong>I💗</strong></p>
+            <p class="text">
+              Chess, coffee, reading, hiking, camping, traveling, watersports,
+              fast cars, and eating!
             </p>
           </div>
-          <!-- <div class="social">
-            <p><strong>Also find me here</strong></p>
-            <div class="social-type">
-              <i class="icon fa-brands fa-github"></i>
-              <a
-                class="social-link"
-                href="https://github.com/chris-azuaje"
-                target="_blank"
-                >Github</a
-              >
-            </div>
-            <div class="social-type">
-              <i class="icon fa-brands fa-twitter"></i>
-              <a
-                class="social-link"
-                href="https://twitter.com/chris_azuaje"
-                target="_blank"
-                >Twitter</a
-              >
-            </div>
-            <div class="social-type">
-              <i class="icon fa-brands fa-linkedin"></i>
-              <a
-                class="social-link"
-                href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
