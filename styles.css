@@ -48,10 +48,6 @@
   color: black;
 }
 
-.header-decoration a:hover {
-  font-weight: 700;
-}
-
 .divider {
   height: 20px;
   width: 1px;
@@ -64,6 +60,16 @@ ul {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+li {
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: var(--light);
+  cursor: pointer;
 }
 
 #hamburger-icon {
@@ -171,6 +177,12 @@ input {
   border-radius: 1rem;
 }
 
+.title {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
 .body-portion {
   margin-top: 2rem;
 }
@@ -208,7 +220,7 @@ input {
   margin-left: 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 @media only screen and (max-width: 580px) {
