@@ -16,16 +16,26 @@ console.groupEnd();
 
 const body = document.querySelector("body");
 const checkbox = document.getElementById("check");
+const projectsBtn = document.querySelector(".projects-btn");
+
+projectsBtn.addEventListener("click", () => {
+  window.open(
+    "https://chris-azuaje.github.io/chris-azuaje-portfolio/",
+    "_blank"
+  );
+});
 
 checkbox.addEventListener("change", () => {
   if (checkbox.checked) {
     body.style.backgroundColor = "var(--darkest)";
     body.style.color = "white";
     body.style.transition = "0.2s";
+    projectsBtn.style.border = "3px solid white";
   } else {
     body.style.backgroundColor = "var(--lightest)";
     body.style.color = "black";
     body.style.transition = "0.2s";
+    projectsBtn.style.border = "3px solid black";
   }
 });
 

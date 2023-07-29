@@ -188,17 +188,18 @@ input {
 }
 
 a {
-  width: 80px;
   text-decoration: none;
 }
 
 .projects-btn {
   text-decoration: none;
+  text-align: center;
+  border: 3px solid black;
   font-size: 15px;
-  padding: 10px 10px;
+  padding: 10px 0;
   border-radius: 5px;
-  border: none;
-  width: 80px;
+  width: 120px;
+  margin-top: 32px;
 }
 
 .projects-btn:hover {
