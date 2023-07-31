@@ -106,7 +106,7 @@ li:hover {
   align-items: start;
   justify-content: flex-start;
   background-color: var(--medium);
-  transform: translate(0px, 20px);
+  transform: translate(0px, 30px);
 }
 
 .mobile-menu {
