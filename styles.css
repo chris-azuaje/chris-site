@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto&display=swap');
 
 :root {
   --lightest: #eae2b7;
@@ -18,8 +18,10 @@
   background-color: var(--lightest);
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .main {
@@ -137,7 +139,7 @@ li:hover {
 
 .switch::before {
   position: absolute;
-  content: "";
+  content: '';
   background-color: var(--medium);
   width: 20px;
   height: 20px;
@@ -235,6 +237,14 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
 }
 
 @media only screen and (max-width: 580px) {
