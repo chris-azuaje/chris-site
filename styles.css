@@ -245,6 +245,20 @@ a {
   justify-content: flex-end;
 }
 
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.card-img {
+  width: 200px;
+}
+
+.card-wrapper {
+  width: 200px;
+}
+
 footer {
   font-family: monospace;
   font-size: 14px;
