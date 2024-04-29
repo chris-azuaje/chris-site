@@ -4,97 +4,129 @@
       "name": "English Coaching Site",
       "link": "https://chris-azuaje.github.io/English-Coaching-Site/",
       "projectType": "Personal Project",
-      "technologies": "html, css, JavaScript"
+      "technologies": "HTML, CSS, JS",
+      "description": "An English Coaching website for a client.",
+      "image": "english-coach.jpg"
     },
     {
       "name": "Habit Detective",
       "link": "https://chris-azuaje.github.io/Habit-Detective/",
       "projectType": "Personal Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "A habit-tracking website.",
+      "image": "habit-detective"
     },
     {
       "name": "Cross Country CampGround",
       "link": "https://chris-azuaje.github.io/cross-country-campground-js/",
       "projectType": "Personal Project",
-      "technologies": ""
+      "technologies": "HTML, CSS, JS",
+      "description": "A website for a local Charlotte campground.",
+      "image": ""
     },
     {
       "name": "Advice Generator",
       "link": "https://chris-azuaje.github.io/advice-generator-app/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "An advice generator application.",
+      "image": ""
     },
     {
       "name": "Hangman",
       "link": "https://chris-azuaje.github.io/hangman/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "React",
+      "description": "A Hangman project.",
+      "image": "hangman.jpg"
     },
     {
       "name": "Task Tracker",
       "link": "https://chris-azuaje.github.io/task-tracker/",
       "projectType": "Personal Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "A simple task tracking website.",
+      "image": ""
     },
     {
       "name": "Markdown Previewer",
       "link": "https://chris-azuaje.github.io/markdown-previewer/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "A website where you can write markdown language and see the result immediately.",
+      "image": ""
     },
     {
       "name": "Pig Game",
       "link": "https://chris-azuaje.github.io/pig-game/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "",
+      "image": ""
     },
     {
       "name": "Modal Window",
       "link": "https://chris-azuaje.github.io/modal-window/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "",
+      "image": ""
     },
     {
       "name": "Guess My Number",
       "link": "https://chris-azuaje.github.io/guess-my-number/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "",
+      "image": ""
     },
     {
       "name": "Bankist One",
       "link": "https://chris-azuaje.github.io/bankist-one/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "",
+      "image": ""
     },
     {
       "name": "Bankist Two",
       "link": "https://chris-azuaje.github.io/bankist-two/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "",
+      "image": ""
     },
     {
       "name": "Age Calculator",
       "link": "https://chris-azuaje.github.io/age-calculator-app/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "",
+      "image": ""
     },
     {
       "name": "Random Quote Generator",
       "link": "https://chris-azuaje.github.io/random-quote-generator/",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "",
+      "image": ""
     },
     {
       "name": "Calculator",
       "link": "https://chris-azuaje.github.io/personal-calculator-project/",
       "projectType": "Personal Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "",
+      "image": ""
     },
     {
       "name": "Newsletter Sign Up Form",
       "link": "https://chris-azuaje.github.io/newsletter-signup-form/?#",
       "projectType": "Academic Project",
-      "technologies": ""
+      "technologies": "",
+      "description": "",
+      "image": ""
     }
   ]
 }

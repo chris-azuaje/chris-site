@@ -6,132 +6,144 @@
     <title>Chris Azuaje</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="/images/pineapple-logo.png" type="image/icon type" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script
       src="https://kit.fontawesome.com/1fd1ffd6f1.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="body">
+  <body>
     <div class="main">
-      <div class="header">
-        <div class="header-decoration">
-          <nav>
-            <ul>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <i class="fa-regular fa-user"></i>
+              <a class="nav__link" href="index.html">Home</a>
+            </li>
+            <span class="nav__divider"></span>
+            <li>
+              <i class="fa-regular fa-folder"></i>
+              <a class="nav__link" href="portfolio.html">Portfolio</a>
+            </li>
+            <span class="nav__divider"></span>
+            <li>
+              <i class="fa-brands fa-github"></i>
+              <a
+                class="nav__link"
+                href="https://github.com/chris-azuaje"
+                target="_blank"
+                >Github</a
+              >
+            </li>
+            <span class="nav__divider"></span>
+            <li>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <a
+                class="nav__link"
+                href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+          <div id="nav__hamburger-icon">
+            <div class="nav__hamburger-icon--bar bar1"></div>
+            <div class="nav__hamburger-icon--bar bar2"></div>
+            <div class="nav__hamburger-icon--bar bar3"></div>
+            <ul id="nav__mobile-menu">
               <li>
-                <a href="index.html">Home</a>
+                <i class="fa-regular fa-user"></i>
+                <a class="nav__link" href="index.html">Home</a>
               </li>
-              <span class="divider"></span>
               <li>
-                <a>Portfolio</a>
+                <i class="fa-regular fa-folder"></i>
+                <a class="nav__link" href="portfolio.html">Portfolio</a>
               </li>
-              <span class="divider"></span>
               <li>
                 <i class="fa-brands fa-github"></i>
-                <a href="https://github.com/chris-azuaje" target="_blank"
+                <a
+                  href="https://github.com/chris-azuaje"
+                  target="_blank"
+                  class="nav__link"
                   >Github</a
                 >
               </li>
-              <span class="divider"></span>
               <li>
                 <i class="fa-brands fa-linkedin-in"></i>
                 <a
                   href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
                   target="_blank"
-                  >LinkedIn</a
-                >
-              </li>
-            </ul>
-          </nav>
-          <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <ul class="mobile-menu">
-              <li>
-                <i class="fa-brands fa-github"></i>
-                <a href="https://github.com/chris-azuaje" target="_blank"
-                  >Github</a
-                >
-              </li>
-              <li>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <a
-                  href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
-                  target="_blank"
+                  class="nav__link"
                   >LinkedIn</a
                 >
               </li>
             </ul>
           </div>
-          <div class="toggle-switch">
-            <input type="checkbox" id="check" />
-            <label for="check" class="switch"></label>
+          <div id="nav__toggle-switch">
+            <input type="checkbox" id="nav__checkbox" />
+            <label for="nav__checkbox" class="switch"></label>
           </div>
-        </div>
-      </div>
-      <div class="body-portion">
-        <div id="grid-container">
-          <div class="card-wrapper">
-            <img src="portfolio-images\example.JPG" alt="" class="card-img" />
+        </nav>
+      </header>
+
+      <!----------------- Portfolio Cards ----------------->
+
+      <div id="body-portion">
+        <div id="grid__container">
+          <div class="card__wrapper">
+            <img src="portfolio-images\example.JPG" alt="" class="card__img" />
             <div class="card__content">
               <h2>A Title</h2>
-              <div class="card__content-features">
+              <div class="card__content--features">
                 <p>HTML, CSS, JS</p>
+                <div class="card__features--type">Academic</div>
               </div>
               <p class="card__content-description">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here'
               </p>
             </div>
           </div>
-          <div class="card-wrapper">
-            <img src="portfolio-images\example.JPG" alt="" class="card-img" />
+          <div class="card__wrapper">
+            <img src="portfolio-images\example.JPG" alt="" class="card__img" />
             <div class="card__content">
               <h2>A Title</h2>
-              <div class="card__content-features">
+              <div class="card__content--features">
                 <p>HTML, CSS, JS</p>
+                <div class="card__features--type">Academic</div>
               </div>
               <p class="card__content-description">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here'
               </p>
             </div>
           </div>
-          <div class="card-wrapper">
-            <img src="portfolio-images\example.JPG" alt="" class="card-img" />
+          <div class="card__wrapper">
+            <img src="portfolio-images\example.JPG" alt="" class="card__img" />
             <div class="card__content">
               <h2>A Title</h2>
-              <div class="card__content-features">
+              <div class="card__content--features">
                 <p>HTML, CSS, JS</p>
+                <div class="card__features--type">Academic</div>
               </div>
               <p class="card__content-description">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here'
               </p>
             </div>
           </div>
-          <div class="card-wrapper">
-            <img src="portfolio-images\example.JPG" alt="" class="card-img" />
+          <div class="card__wrapper">
+            <img src="portfolio-images\example.JPG" alt="" class="card__img" />
             <div class="card__content">
               <h2>A Title</h2>
-              <div class="card__content-features">
+              <div class="card__content--features">
                 <p>HTML, CSS, JS</p>
+                <div class="card__features--type">Academic</div>
               </div>
               <p class="card__content-description">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here'
               </p>
             </div>
           </div>
@@ -142,5 +154,6 @@
       <p>Created by Chris Azuaje</p>
     </footer>
     <script src="script.js"></script>
+    <script src="portfolio.js"></script>
   </body>
 </html>

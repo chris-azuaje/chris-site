@@ -1,28 +1,11 @@
+'use strict';
+
 const styles = 'font-size: 1.25em; font-weight: bold; padding: 5px;';
 
-console.group(
-  `%cHi, I'm Chris Azuaje and thanks for checking out my portfolio!`,
-  styles
-);
-
-console.log('%c🐈 Github - https://github.com/chris-azuaje', styles);
-console.log(
-  '%c👨‍💼 LinkedIn - https://www.linkedin.com/in/chris-azuaje-73ba46126/',
-  styles
-);
-console.log('%c📫 Email - christopherazuaje@gmail.com', styles);
-console.groupEnd();
-
 const body = document.querySelector('body');
-const checkbox = document.getElementById('check');
+const navIcon = document.getElementById('nav__hamburger-icon');
+const checkbox = document.getElementById('nav__checkbox');
 const projectsBtn = document.querySelector('.projects-btn');
-
-// projectsBtn.addEventListener('click', () => {
-//   window.open(
-//     'https://chris-azuaje.github.io/chris-azuaje-portfolio/',
-//     '_blank'
-//   );
-// });
 
 checkbox.addEventListener('change', () => {
   if (checkbox.checked) {
@@ -38,6 +21,20 @@ checkbox.addEventListener('change', () => {
   }
 });
 
-function toggleMobileMenu(menu) {
-  menu.classList.toggle('open');
-}
+navIcon.addEventListener('click', function () {
+  navIcon.classList.toggle('open');
+});
+
+// Developer Tools Menu
+
+console.group(
+  `%cHi, I'm Chris Azuaje and thanks for checking out my portfolio!`,
+  styles
+);
+console.log('%c🐈 Github - https://github.com/chris-azuaje', styles);
+console.log(
+  '%c👨‍💼 LinkedIn - https://www.linkedin.com/in/chris-azuaje-73ba46126/',
+  styles
+);
+console.log('%c📫 Email - christopherazuaje@gmail.com', styles);
+console.groupEnd();
