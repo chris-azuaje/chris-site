@@ -34,45 +34,12 @@
       "image": "markdown-previewer.JPG"
     },
     {
-      "name": "Advice Generator",
-      "link": "https://chris-azuaje.github.io/advice-generator-app/",
-      "projectType": "Academic Project",
-      "technologies": "HTML, CSS, JS, API",
-      "description": "A clean and simple advice generator app that fetches quotes from an advice slip API ",
-      "image": "advice-generator.JPG"
-    },
-    {
-      "name": "Hangman",
-      "link": "https://chris-azuaje.github.io/hangman/",
-      "projectType": "Academic Project",
-      "technologies": "React, TS",
-      "description": "A Hangman project built using React and TypeScript",
-      "image": "hangman.JPG"
-    },
-    {
-      "name": "Task Tracker",
-      "link": "https://chris-azuaje.github.io/task-tracker/",
-      "projectType": "Personal Project",
-      "technologies": "HTML, CSS, JS",
-      "description": "A simple task tracking app",
-      "image": "task-tracker.JPG"
-    },
-
-    {
       "name": "Pig Game",
       "link": "https://chris-azuaje.github.io/pig-game/",
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS",
       "description": "A two-player game where users roll a die and choose to hold or continue, risking a snake-eye. First to 20 wins!",
       "image": "pig-game.JPG"
-    },
-    {
-      "name": "Modal Window",
-      "link": "https://chris-azuaje.github.io/modal-window/",
-      "projectType": "Academic Project",
-      "technologies": "HTML, CSS, JS",
-      "description": "An interactive modal window exercise",
-      "image": "modal-window.JPG"
     },
     {
       "name": "Guess My Number",
@@ -97,6 +64,30 @@
       "technologies": "HTML, CSS, JS",
       "description": "A sleek website that uses lazy-loading images, modal windows and a satisfying scroll to feature.",
       "image": "bankist-two.JPG"
+    },
+    {
+      "name": "Advice Generator",
+      "link": "https://chris-azuaje.github.io/advice-generator-app/",
+      "projectType": "Academic Project",
+      "technologies": "HTML, CSS, JS, API",
+      "description": "A clean and simple advice generator app that fetches quotes from an advice slip API ",
+      "image": "advice-generator.JPG"
+    },
+    {
+      "name": "Hangman",
+      "link": "https://chris-azuaje.github.io/hangman/",
+      "projectType": "Academic Project",
+      "technologies": "React, TS",
+      "description": "A Hangman project built using React and TypeScript",
+      "image": "hangman.JPG"
+    },
+    {
+      "name": "Task Tracker",
+      "link": "https://chris-azuaje.github.io/task-tracker/",
+      "projectType": "Personal Project",
+      "technologies": "HTML, CSS, JS",
+      "description": "A simple task tracking app",
+      "image": "task-tracker.JPG"
     },
     {
       "name": "Age Calculator",
@@ -129,6 +120,14 @@
       "technologies": "HTML, CSS, JS",
       "description": "A static newsletter sign-up form",
       "image": "newsletter-signup.JPG"
+    },
+    {
+      "name": "Modal Window",
+      "link": "https://chris-azuaje.github.io/modal-window/",
+      "projectType": "Academic Project",
+      "technologies": "HTML, CSS, JS",
+      "description": "An interactive modal window exercise",
+      "image": "modal-window.JPG"
     }
   ]
 }
