@@ -9,17 +9,23 @@ const projectsBtn = document.querySelector('.projects-btn');
 
 checkbox.addEventListener('change', () => {
   if (checkbox.checked) {
+    keepBlack();
     body.style.backgroundColor = 'var(--darkest)';
     body.style.color = 'white';
     body.style.transition = '0.2s';
-    // projectsBtn.style.border = '3px solid white';
   } else {
     body.style.backgroundColor = 'var(--lightest)';
     body.style.color = 'black';
     body.style.transition = '0.2s';
-    // projectsBtn.style.border = '3px solid black';
   }
 });
+
+function keepBlack() {
+  let homeIcon = document.querySelector('.fa-user');
+  let portfolioIcon = document.querySelector('.fa-folder');
+  homeIcon.style.color = 'black';
+  portfolioIcon.style.color = 'black';
+}
 
 navIcon.addEventListener('click', function () {
   navIcon.classList.toggle('open');

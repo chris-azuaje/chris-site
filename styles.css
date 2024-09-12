@@ -180,12 +180,12 @@ input {
 }
 
 #header__section-photo {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
-  object-position: center center;
+  object-position: 0% 40%;
   border: 3px solid var(--medium);
-  border-radius: 1rem;
+  border-radius: 50%;
 }
 
 .photo-caption {
@@ -232,7 +232,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 5rem;
 }
 
 #bio__main {
@@ -269,10 +268,12 @@ a {
 
 .card__img {
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .card__wrapper {
-  border: 1px solid black;
+  border: 2px solid var(--medium);
+  border-radius: 10px;
 }
 
 .card__content {
@@ -298,7 +299,7 @@ footer {
   font-family: monospace;
   font-size: 14px;
   text-align: center;
-  position: relative;
+  margin: 30px auto;
   bottom: 10px;
 }
 
@@ -338,5 +339,9 @@ footer {
   #bio__section-extras {
     margin-top: 5px;
     margin-left: 0;
+  }
+
+  #grid__container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
