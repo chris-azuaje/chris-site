@@ -6,15 +6,15 @@
       "projectType": "Personal Project",
       "technologies": "HTML, CSS, JS",
       "description": "An app built to set and track unlimited habits on a weekly basis",
-      "image": "habit-detective.jpg"
+      "image": "habit-detective.JPG"
     },
     {
       "name": "English Coaching Site",
       "link": "https://chris-azuaje.github.io/English-Coaching-Site/",
       "projectType": "Personal Project",
-      "technologies": "HTML, CSS, JS, jQuery",
+      "technologies": "HTML, CSS, JS, jQuery, JSON",
       "description": "An English coaching website built for a tutor who teaches english online to non-native speakers",
-      "image": "english-coach.jpg"
+      "image": "english-coach.JPG"
     },
 
     {
@@ -23,7 +23,7 @@
       "projectType": "Personal Project",
       "technologies": "HTML, CSS, JS",
       "description": "A website built for a local campground located in Denver, NC",
-      "image": "cross-country-campground.jpg"
+      "image": "cross-country-campground.JPG"
     },
     {
       "name": "Markdown Previewer",
@@ -31,7 +31,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, JS, Bootstrap",
       "description": "An app where users can write Markdown and view their formatting immediately",
-      "image": "markdown-previewer.jpg"
+      "image": "markdown-previewer.JPG"
     },
     {
       "name": "Advice Generator",
@@ -39,7 +39,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS, API",
       "description": "A clean and simple advice generator app that fetches quotes from an advice slip API ",
-      "image": "advice-generator.jpg"
+      "image": "advice-generator.JPG"
     },
     {
       "name": "Hangman",
@@ -47,7 +47,7 @@
       "projectType": "Academic Project",
       "technologies": "React, TS",
       "description": "A Hangman project built using React and TypeScript",
-      "image": "hangman.jpg"
+      "image": "hangman.JPG"
     },
     {
       "name": "Task Tracker",
@@ -55,7 +55,7 @@
       "projectType": "Personal Project",
       "technologies": "HTML, CSS, JS",
       "description": "A simple task tracking app",
-      "image": "task-tracker.jpg"
+      "image": "task-tracker.JPG"
     },
 
     {
@@ -64,7 +64,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS",
       "description": "A two-player game where users roll a die and choose to hold or continue, risking a snake-eye. First to 20 wins!",
-      "image": "pig-game.jpg"
+      "image": "pig-game.JPG"
     },
     {
       "name": "Modal Window",
@@ -72,7 +72,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS",
       "description": "An interactive modal window exercise",
-      "image": "modal-window.jpg"
+      "image": "modal-window.JPG"
     },
     {
       "name": "Guess My Number",
@@ -80,7 +80,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS",
       "description": "Guess the hidden number and try to achieve the best high score!",
-      "image": "guess-my-number.jpg"
+      "image": "guess-my-number.JPG"
     },
     {
       "name": "Bankist One",
@@ -88,7 +88,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS",
       "description": "This app keeps track of loans from any given user. New users can be created.",
-      "image": "bankist-one.jpg"
+      "image": "bankist-one.JPG"
     },
     {
       "name": "Bankist Two",
@@ -96,7 +96,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS",
       "description": "A sleek website that uses lazy-loading images, modal windows and a satisfying scroll to feature.",
-      "image": "bankist-two.jpg"
+      "image": "bankist-two.JPG"
     },
     {
       "name": "Age Calculator",
@@ -104,7 +104,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS",
       "description": "An app that calculates the age of any individual by inputting their date of birth",
-      "image": "age-calculator.jpg"
+      "image": "age-calculator.JPG"
     },
     {
       "name": "Random Quote Generator",
@@ -112,7 +112,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS",
       "description": "A quote generator app that fetches quotes from an object array.",
-      "image": "quote-generator.jpg"
+      "image": "quote-generator.JPG"
     },
     {
       "name": "Calculator",
@@ -120,7 +120,7 @@
       "projectType": "Personal Project",
       "technologies": "HTML, CSS, JS",
       "description": "A calculator app",
-      "image": "calculator.jpg"
+      "image": "calculator.JPG"
     },
     {
       "name": "Newsletter Sign Up Form",
@@ -128,7 +128,7 @@
       "projectType": "Academic Project",
       "technologies": "HTML, CSS, JS",
       "description": "A static newsletter sign-up form",
-      "image": "newsletter-signup.jpg"
+      "image": "newsletter-signup.JPG"
     }
   ]
 }

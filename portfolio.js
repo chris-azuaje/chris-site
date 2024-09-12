@@ -15,7 +15,7 @@ $(document).ready(function () {
       data.projects.forEach(function (project) {
         $('#grid__container').append(
           '<div class="card__wrapper">' +
-            '<img src="/portfolio-images/' +
+            '<img src="portfolio-images/' +
             project.image +
             '"alt=' +
             project.image +
