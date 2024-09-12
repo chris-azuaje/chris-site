@@ -11,174 +11,186 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="body">
+  <body>
     <div class="main">
-      <div class="header">
-        <div class="header-decoration">
-          <nav>
-            <ul>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <i class="fa-regular fa-user"></i>
+              <a class="nav__link" href="index.html">Home</a>
+            </li>
+            <span class="nav__divider"></span>
+            <li>
+              <i class="fa-regular fa-folder"></i>
+              <a class="nav__link" href="portfolio.html">Portfolio</a>
+            </li>
+            <span class="nav__divider"></span>
+            <li>
+              <i class="fa-brands fa-github"></i>
+              <a
+                class="nav__link"
+                href="https://github.com/chris-azuaje"
+                target="_blank"
+                >Github</a
+              >
+            </li>
+            <span class="nav__divider"></span>
+            <li>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <a
+                class="nav__link"
+                href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+          <div id="nav__hamburger-icon">
+            <div class="nav__hamburger-icon--bar bar1"></div>
+            <div class="nav__hamburger-icon--bar bar2"></div>
+            <div class="nav__hamburger-icon--bar bar3"></div>
+            <ul id="nav__mobile-menu">
+              <li>
+                <i class="fa-regular fa-user"></i>
+                <a class="nav__link" href="index.html">Home</a>
+              </li>
+              <li>
+                <i class="fa-regular fa-folder"></i>
+                <a class="nav__link" href="portfolio.html">Portfolio</a>
+              </li>
               <li>
                 <i class="fa-brands fa-github"></i>
-                <a href="https://github.com/chris-azuaje" target="_blank"
+                <a
+                  href="https://github.com/chris-azuaje"
+                  target="_blank"
+                  class="nav__link"
                   >Github</a
                 >
               </li>
-              <span class="divider"></span>
               <li>
                 <i class="fa-brands fa-linkedin-in"></i>
                 <a
                   href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
                   target="_blank"
+                  class="nav__link"
                   >LinkedIn</a
                 >
               </li>
-              <!-- <span class="divider"></span>
-              <li>
-                <i class="fa-brands fa-twitter"></i>
-                <a href="https://twitter.com/chris_azuaje" target="_blank"
-                  >Twitter</a
-                >
-              </li> -->
-            </ul>
-          </nav>
-          <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <ul class="mobile-menu">
-              <li>
-                <i class="fa-brands fa-github"></i>
-                <a href="https://github.com/chris-azuaje" target="_blank"
-                  >Github</a
-                >
-              </li>
-              <li>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <a
-                  href="https://www.linkedin.com/in/chris-azuaje-73ba46126/"
-                  target="_blank"
-                  >LinkedIn</a
-                >
-              </li>
-              <!-- <li>
-                <i class="fa-brands fa-twitter"></i>
-                <a href="https://twitter.com/chris_azuaje" target="_blank"
-                  >Twitter</a
-                >
-              </li> -->
             </ul>
           </div>
-          <div class="toggle-switch">
-            <input type="checkbox" id="check" />
-            <label for="check" class="switch"></label>
+          <div id="nav__toggle-switch">
+            <input type="checkbox" id="nav__checkbox" />
+            <label for="nav__checkbox" class="switch"></label>
           </div>
-        </div>
-        <div class="header-section">
-          <div class="intro">
-            <h2 class="intro-name">Chris Azuaje</h2>
-            <p class="intro-background">
-              Software Development Graduate Student
-            </p>
-            <p>UNC Charlotte</p>
+        </nav>
+
+        <!----------------- Intro Section ----------------->
+
+        <div id="header__section">
+          <div>
+            <h2>Chris Azuaje</h2>
+            <p>Software Development Graduate Student</p>
+            <p>UNC Charlotte🎓</p>
           </div>
           <figure>
-            <img class="intro-photo" src="./images/IMG_8476.jpg" />
-            <figcaption class="photo-caption">
-              <em
-                >Sierra Nevada Mountains <br />
-                Granada, Spain</em
-              >
-            </figcaption>
+            <img id="header__section-photo" src="./images/profile-photo.jpg" />
           </figure>
         </div>
-      </div>
+      </header>
 
-      <div class="body-portion body-portion--one">
-        <p class="title"><strong>Profile</strong></p>
-        <p class="text">
-          Welcome to my website! I'm Chris Azuaje, a graduate student with a
-          passion for crafting functional and aesthetic applications. As a
-          student I enjoy expanding my knowledge and exploring innovative ways
-          to improve my technical skillset.
-        </p>
-        <p class="text">
-          I originally pursued mechanical engineering as an undergrad which was
-          an incredible and challenging journey. However, I came to realize that
-          was not the path for me and eventually decided to transition into
-          software.
-        </p>
-        <p class="text">
-          My journey into software development began during a transformative
-          year-long sabbatical exploring diverse cultures around the world.
-          Witnessing the incredible impact of modern technologies in vibrant
-          cities like Bangkok, juxtaposed with the absence of such advancements
-          in places like Marrakesh, sparked my fascination with the potential of
-          technology to drive positive change.
-        </p>
-        <p class="text">
-          Today, I reside in the beautiful city of Charlotte where I spend most
-          of my time studying code, working, creating projects, exercising, or
-          enjoying the outdoors. Whatever I do, I approach
-          <em>every</em> activity with a sense of purpose and a positive
-          mindset!
-        </p>
-      </div>
+      <!----------------- Section 1 ----------------->
 
-      <!-- <a
-        href="https://chris-azuaje.github.io/chris-azuaje-portfolio/"
-        target="_blank"
-      >
-        <p class="projects-btn">
-          <strong>Projects</strong>
+      <section class="body__section body__section--1">
+        <p class="body__section--title"><strong>Profile</strong></p>
+        <p class="body__section--text">
+          Welcome to my website! I'm Chris Azuaje, a UNC Charlotte grad student
+          with various passions such as developing software, anything
+          automotive, and operating a detailing business. As a student I am
+          highly motivated to improve my technical skillset and receive the best
+          grades possible.
         </p>
-      </a> -->
+        <p class="body__section--text">
+          I originally pursued Mechanical Engineering as an undergrad which was
+          an insightful and challenging journey. Though I did learn a lot in
+          that field of study, I wasn't prepared to be a responsible student
+          which resulted in missed assignments and mediocre grades. In fact, I
+          was removed from the Mechanical Engineering program and downgraded
+          into the Mechanical Engineering Technology program which was less
+          theory and more application-based engineering.
+        </p>
+        <p class="body__section--text">
+          Subsequent to my undergraduate pursuits, I embarked on a
+          self-reflecting international gap year and in time decided to tinker
+          with code due to its seemingly progressive, creative, and rewarding
+          nature. I began learning on my own in Thailand through insightful
+          mentors and taking highly-rated classes via online learning platforms
+          such as Udemy and Coursera. Eventually after returning to the States,
+          I decided to attend graduate courses back at UNCC which was a
+          momentous decision given my undergraduate experience. But this time,
+          with integrity and perseverance.
+        </p>
+        <p class="body__section--text">
+          Learning how to code has been and continues to be an exciting endeavor
+          in and out of the classroom. I'm eager to prove to myself and to
+          others that I can apply my coding knowledge and life experiences to
+          contribute and excel in a production environment.
+        </p>
+      </section>
 
-      <div class="body-portion body-portion--two">
-        <div class="bio-main">
-          <p class="title"><strong>Bio</strong></p>
-          <div class="bio-section">
-            <p class="text bio-year">1997</p>
-            <p class="text bio-highlight">Moved to Venezuela with my family</p>
+      <!----------------- Section 2 ----------------->
+
+      <section class="body__section body__section--2">
+        <div id="bio__main">
+          <p class="body__section--title"><strong>Bio</strong></p>
+          <div class="bio__section">
+            <p class="body__section--text bio--year">1997</p>
+            <p class="body__section--text bio--highlight">
+              Moved to Venezuela with my family
+            </p>
           </div>
-          <div class="bio-section">
-            <p class="text bio-year">2005</p>
-            <p class="text bio-highlight">Relocated to Florida</p>
+          <div class="bio__section">
+            <p class="body__section--text bio--year">2005</p>
+            <p class="body__section--text bio--highlight">
+              Relocated to Florida
+            </p>
           </div>
-          <div class="bio-section">
-            <p class="text bio-year">2011</p>
-            <p class="text bio-highlight">
+          <div class="bio__section">
+            <p class="body__section--text bio--year">2011</p>
+            <p class="body__section--text bio--highlight">
               First time ever wakeboarding which led to a newfound love of
               watersports 🏄‍♂️
             </p>
           </div>
-          <div class="bio-section">
-            <p class="text bio-year">2015</p>
-            <p class="text bio-highlight">
-              Started my university curriculum as a mechanical engineering
-              student
+          <div class="bio__section">
+            <p class="body__section--text bio--year">2015</p>
+            <p class="body__section--text bio--highlight">
+              Started university curriculum as a mechanical engineering student
             </p>
           </div>
-          <div class="bio-section">
-            <p class="text bio-year">2020</p>
-            <p class="text bio-highlight">First job as a CAD technician</p>
+          <div class="bio__section">
+            <p class="body__section--text bio--year">2020</p>
+            <p class="body__section--text bio--highlight">
+              First job as a CAD technician
+            </p>
           </div>
-          <div class="bio-section">
-            <p class="text bio-year">2022</p>
-            <p class="text bio-highlight">
+          <div class="bio__section">
+            <p class="body__section--text bio--year">2022</p>
+            <p class="body__section--text bio--highlight">
               Went on a backpacking trip and traveled through 9 countries 🌍
             </p>
           </div>
         </div>
-        <div class="extras">
+        <div id="bio__section-extras">
           <div>
-            <p class="title"><strong>I💗</strong></p>
-            <p class="text">
+            <p class="body__section--title"><strong>I💗</strong></p>
+            <p class="body__section--text">
               Playing chess, morning coffee, inspirational literature, tent
-              camping, solo travel, swimming, cooking, and motorsports
+              camping, solo traveling, swimming, and cooking
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </div>
     <footer>
       <p>Created by Chris Azuaje</p>
