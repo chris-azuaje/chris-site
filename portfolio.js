@@ -19,9 +19,13 @@ $(document).ready(function () {
             project.image +
             '"alt=' +
             project.image +
-            ' class="card__img" />' +
+            ' class="card__img" onclick="window.open(\'' +
+            project.link +
+            '\')" />' +
             '<div class="card__content">' +
-            '<h2>' +
+            '<h2 class="card__header" onclick="window.open(\'' +
+            project.link +
+            '\')">' +
             project.name +
             '</h2>' +
             '<div class="card__content--features">' +
